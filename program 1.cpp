@@ -3,7 +3,6 @@
 //program1:Multiples of 3 and 5
 
 #include<iostream>
-#include<cstring>
 using namespace std;
 
 int main()
