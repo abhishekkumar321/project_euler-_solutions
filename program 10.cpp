@@ -11,7 +11,7 @@ int main()
 		cin>>n;
 		for(long long i=2;i<=n;i++)
 		{
-			if(i%2==!0 || i==2)
+			if(i%2==!0 || i==2 || i%3==!0 || i==3 || i%5==!0 || i==5 || i%7==!0 || i==7)
 			{
 			int flag=0;
 			for(long long j=2;j*j<=i;j++)
@@ -26,6 +26,9 @@ int main()
 cout<<sum; 	
 return 0;
 }
+	
+    
+
 	
     
 	
