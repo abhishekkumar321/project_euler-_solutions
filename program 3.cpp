@@ -18,11 +18,11 @@ int main()
 			if(i%2==!0)
 				{
 					int flag=0;
-				for(unsigned  long long j=2;j*j<=i;j++)
-				if(i%j==0)
-				{flag=1;break;}
-				if(flag==0 && num%i==0)
-				{factor=i;num=num/i;}
+					for(unsigned  long long j=2;j*j<=i;j++)
+					if(i%j==0)
+					{flag=1;break;}
+					if(flag==0 && num%i==0)
+					{factor=i;num=num/i;}
 				}
 			
 			
