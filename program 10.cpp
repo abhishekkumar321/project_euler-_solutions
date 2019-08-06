@@ -1,8 +1,9 @@
-//Name: Abhishek Kumr
+//Name: Abhishek Kumar
 //registration number:1941012170
 //program 10: Summation of primes
 
 #include<iostream>
+#include<cmath>
 using namespace std;
  
 int main()
@@ -14,7 +15,7 @@ int main()
 			if(i%2==!0 || i==2 || i%3==!0 || i==3 || i%5==!0 || i==5 || i%7==!0 || i==7)
 			{
 			int flag=0;
-			for(long long j=2;j*j<=i;j++)
+			for(long long j=2;j<=sqrt(i);j++)
 			if(i%j==0)
 			{flag=1;break;}
 			if(flag==0)
