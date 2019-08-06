@@ -1,4 +1,4 @@
-//Name: Abhishek Kumr
+//Name: Abhishek Kumar
 //registration number:1941012170
 //program 7:10001st prime
 
@@ -12,6 +12,7 @@ using namespace std;
 				{
 				int flag=0;
 				for(long long j=2;j<=sqrt(i);j++)
+				if(j%2==!0 || j==2 )
 				if(i%j==0)
 				{flag=1;break;}
 				if(flag==0)
