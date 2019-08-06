@@ -8,13 +8,15 @@ using namespace std;
  
  int isprime(long long  i)			
 			{
-				
-			int flag=0;
-			for(long long j=2;j<=sqrt(i);j++)
-			if(i%j==0)
-			{flag=1;break;}
-			if(flag==0)
-			return 1;
+				if(i%2!=0 || i==2)	
+				{
+				int flag=0;
+				for(long long j=2;j<=sqrt(i);j++)
+				if(i%j==0)
+				{flag=1;break;}
+				if(flag==0)
+				return 1;
+				}
 			}
 		
 int main()
