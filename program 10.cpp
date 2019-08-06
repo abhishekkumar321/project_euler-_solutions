@@ -16,6 +16,7 @@ int main()
 			{
 			int flag=0;
 			for(long long j=2;j<=sqrt(i);j++)
+			if(j%2==!0 || j==2 )
 			if(i%j==0)
 			{flag=1;break;}
 			if(flag==0)
