@@ -2,7 +2,7 @@
 //registration number:1941012170
 //program 5:Smallest Multiple
 
-include<iostream>
+#include<iostream>
 #include<cmath>
 using namespace std;
 
